@@ -1,0 +1,10 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root{--bg:#F8FAFC;--card:#FFFFFF;--fg:#0F172A;--muted:#64748B;--line:#E2E8F0}
+.dark{--bg:#0B1020;--card:#131A2E;--fg:#E5E7EB;--muted:#94A3B8;--line:#222B45}
+body{background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+.card{background:var(--card);border:1px solid var(--line);border-radius:1.25rem;box-shadow:0 1px 2px rgb(15 23 42/.04)}
+.btn{display:inline-flex;align-items:center;gap:.5rem;border-radius:.75rem;padding:.55rem 1rem;font-weight:600;font-size:.875rem;transition:.15s;min-height:40px}
+.btn:focus-visible,.inp:focus-visible{outline:2px solid #8B5CF6;outline-offset:2px}
+.btn-primary{background:#6D28D9;color:#fff}.btn-primary:hover{background:#5B21B6}
+.btn-ghost{border:1px solid var(--line)}.btn-ghost:hover{background:var(--bg)}
+.inp{width:100%;border:1px solid var(--line);background:var(--card);border-radius:.75rem;padding:.55rem .75rem;font-size:.875rem;min-height:40px}

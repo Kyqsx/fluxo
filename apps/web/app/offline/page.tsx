@@ -1,0 +1,1 @@
+export default function Offline() { return <div className="card p-8 text-center"><h2 className="text-lg font-semibold">Você está offline</h2><p className="mt-2 text-sm text-muted">Reconecte-se para continuar usando o Fluxo.</p></div>; }

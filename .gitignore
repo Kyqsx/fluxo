@@ -1,0 +1,34 @@
+# dependências
+node_modules/
+.pnpm-store/
+
+# build do Next.js
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# variáveis de ambiente (nunca commitar chaves)
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# testes e cobertura
+coverage/
+
+# Supabase local
+supabase/.branches/
+supabase/.temp/
+
+# sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# deploy
+.vercel/
